@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="720.0" maxWidth="960.0" minHeight="720.0" minWidth="960.0" prefHeight="720.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diningphilosopherswithjavafx.DiningTableController">
+    <children>
+        <Button fx:id="button" layoutX="41.0" layoutY="44.0" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="95.0" text="Start!">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <ImageView fx:id="tableImgView" fitHeight="400.0" fitWidth="402.0" layoutX="279.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Table%20without%20Forks.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="aristotle" fitHeight="120.0" fitWidth="120.0" layoutX="420.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Aristotle-Thinking.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="buddha" fitHeight="120.0" fitWidth="120.0" layoutX="681.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Buddha-Thinking.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="russell" fitHeight="120.0" fitWidth="120.0" layoutX="159.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Russell-Thinking.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="marx" fitHeight="120.0" fitWidth="120.0" layoutX="219.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Marx-Thinking.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="kant" fitHeight="120.0" fitWidth="120.0" layoutX="621.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Kant-Thinking.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="fork1" fitHeight="80.0" fitWidth="80.0" layoutX="528.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/fork%2003.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="fork2" fitHeight="80.0" fitWidth="80.0" layoutX="560.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/fork%2002.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="fork3" fitHeight="80.0" fitWidth="80.0" layoutX="474.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/fork%2001.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="fork4" fitHeight="80.0" fitWidth="80.0" layoutX="323.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/fork%2005.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="fork5" fitHeight="80.0" fitWidth="80.0" layoutX="369.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/fork%2004.png" />
+            </image>
+        </ImageView>
+      <Button fx:id="stopButton" layoutX="41.0" layoutY="100.0" onAction="#handleButtonStop" prefHeight="38.0" prefWidth="95.0" text="Stop!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="647.0" layoutY="684.0" prefHeight="22.0" prefWidth="299.0" text="*Make sure all threads are stopped before leaving." />
+    </children>
+</AnchorPane>
