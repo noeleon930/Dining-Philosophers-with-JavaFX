@@ -25,7 +25,7 @@ public class DiningPhilosophersWithJavaFX extends Application
         
         Scene scene = new Scene(root);
         stage.getIcons().add(new Image(getClass().getResourceAsStream("img/Table with Forks.png")));
-        stage.setTitle("Dining Philosophers with JavaFX by 101703009, 012, 023");
+        stage.setTitle("Dining Philosophers with JavaFX by 101703012. Icons by 101703023");
         stage.setScene(scene);
         stage.show();
     }
